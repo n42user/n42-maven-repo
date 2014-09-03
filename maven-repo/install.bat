@@ -1,0 +1,1 @@
+call mvn install:install-file -Dfile=./lib/kairosdb-client-1.0-SNAPSHOT.jar -DgroupId=kairosdb-client -DartifactId=kairosdb-client -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=./repository
