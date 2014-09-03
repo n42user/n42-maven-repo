@@ -1,1 +1,2 @@
 call mvn install:install-file -Dfile=./lib/kairosdb-client-1.0-SNAPSHOT.jar -DgroupId=kairosdb-client -DartifactId=kairosdb-client -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=./repository
+call mvn install:install-file -Dfile=./lib/metrics_publish-2.0.1.jar -DgroupId=metrics_publish -DartifactId=metrics_publish -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=./repository
