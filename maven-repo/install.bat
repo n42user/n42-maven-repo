@@ -4,3 +4,4 @@ call mvn install:install-file -Dfile=./lib/metrics_publish-2.0.1.jar -DgroupId=m
 call mvn install:install-file -Dfile=./lib/machine-agent-3.7.11.jar -DgroupId=com.appdynamics -DartifactId=machine-agent -Dversion=3.7.11 -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=./repository
 call mvn install:install-file -Dfile=./lib/machineagent.jar -DgroupId=com.appdynamics -DartifactId=machineagent -Dversion=3.7.11 -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=./repository
 call mvn install:install-file -Dfile=./lib/tsdb-2.0.1.jar -DgroupId=net.opentsdb -DartifactId=next -Dversion=1.3 -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=./repository
+call mvn install:install-file -Dfile=./lib/appd-exts-commons-1.1.2.jar -DgroupId=com.appdynamics -DartifactId=appd-exts-commons -Dversion=1.1.2 -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=./repository
